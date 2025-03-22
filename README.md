@@ -34,10 +34,9 @@ This is a RESTful web application built with Spring Boot that tracks courier loc
 1. Clone the repository:
    ```bash
    git clone https://github.com/HasanDogann/CourierTracking.git
-   cd courier-tracking
    ```
 
-2. Build the application:
+2. Go project directory and Build the application:
    ```bash
    mvn clean install
    ```
