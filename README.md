@@ -92,6 +92,9 @@ curl -X POST http://localhost:8080/api/couriers/location \
 curl http://localhost:8080/api/couriers/courier123/distance
 ```
 
+#### Note: You need to submit at least 2 location points for the same courier to calculate distance.
+
+
 ## Testing Migros Store Visits
 
 Below are curl commands to simulate a courier visiting each Migros store location and then checking the total travel distance:
@@ -115,7 +118,6 @@ curl -X POST http://localhost:8080/api/couriers/location -H "Content-Type: appli
 # Check total distance after visiting all stores
 curl -X GET http://localhost:8080/api/couriers/courier123/distance
 ```
-Note: You need to submit at least 2 location points for the same courier to calculate distance.
 
 ### Running a Simulation Script
 
